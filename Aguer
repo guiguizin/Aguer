@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grupo Online de Emagrecimento Consciente</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <header class="bg-orange-500 text-white p-6 shadow">
+    <h1 class="text-3xl font-bold text-center">Transforme seu corpo e sua relação com a comida em 75 dias</h1>
+    <p class="text-center mt-2 text-lg">Grupo online com encontros, avaliações físicas, cardápios e acompanhamento completo</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto mt-10 p-6 bg-white rounded-2xl shadow-xl">
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">✨ O que você vai receber:</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>5 encontros online com acompanhamento nutricional e emocional</li>
+        <li>2 avaliações físicas presenciais (início e fim)</li>
+        <li>Modelos de cardápios para você escolher o que faz mais sentido</li>
+        <li>eBooks exclusivos sobre alimentação, mentalidade, estratégias e motivação</li>
+        <li>Grupo de apoio e motivação para transformar seu estilo de vida</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">🎯 Por que esse grupo é diferente?</h2>
+      <p class="mb-2">Porque você vai aprender a emagrecer com prazer, autonomia e consciência alimentar, sem dietas radicais ou culpa. Aqui você recebe suporte real, de verdade, com base na ciência e na escuta.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">💸 Investimento simbólico</h2>
+      <p class="text-xl font-bold">Apenas R$250,00 por todo o programa completo</p>
+      <p class="mt-1 text-sm text-gray-600">Vagas limitadas para garantir atenção personalizada</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">📅 Início em breve — Garanta sua vaga agora!</h2>
+      <form action="https://formsubmit.co/seuemail@dominio.com" method="POST" class="space-y-4">
+        <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="text" name="nome" placeholder="Seu nome completo" class="w-full border border-gray-300 p-3 rounded-lg" required />
+        <input type="email" name="email" placeholder="Seu melhor e-mail" class="w-full border border-gray-300 p-3 rounded-lg" required />
+        <input type="tel" name="whatsapp" placeholder="Seu WhatsApp (com DDD)" class="w-full border border-gray-300 p-3 rounded-lg" required />
+        <button type="submit" class="w-full bg-orange-500 text-white text-lg py-3 rounded-lg hover:bg-orange-600 transition">Quero reservar minha vaga</button>
+      </form>
+    </section>
+
+    <footer class="text-sm text-gray-500 text-center mt-8">
+      © 2025 | Programa de Emagrecimento Consciente com [Seu Nome] | Todos os direitos reservados
+    </footer>
+  </main>
+</body>
+</html>
